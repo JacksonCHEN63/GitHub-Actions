@@ -12,5 +12,5 @@ jobs:
     steps:
       - run: echo "hello world"
       - run: cd /home && pwd && ls -al
-      - run: ls -al
-      - run: ./hello.sh
+      - run: pwd && ls -al
+        #- run: ./hello.sh
