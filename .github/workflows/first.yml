@@ -12,3 +12,4 @@ jobs:
       - run: echo "hello world"
       - run: pwd
       - run: ls -al
+      - run: ./hello.sh
