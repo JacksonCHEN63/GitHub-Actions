@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello world"
-      - run: cd /home && pwd
-      - run: pwd && ls -al
+      - run: cd /home && pwd && ls -al
+      - run: ls -al
       - run: ./hello.sh
