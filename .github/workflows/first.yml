@@ -1,0 +1,12 @@
+name: hello world 
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
