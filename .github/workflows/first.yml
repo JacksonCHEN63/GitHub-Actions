@@ -7,7 +7,8 @@ on:
 
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: Linux
     steps:
       - run: echo "hello world"
       - run: cd /home && pwd && ls -al
